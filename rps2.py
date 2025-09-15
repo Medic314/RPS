@@ -2,7 +2,7 @@ import random
 round = 1
 comp_wins = 0
 player_wins = 0
-while round < 6:
+for num in range(1, 6):
     print(f"ROUND {round}")
     
     player_input = str(input(f"Enter choice: ")).strip().lower()
